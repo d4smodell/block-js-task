@@ -1,0 +1,29 @@
+table.example1,
+table.example1 th,
+table.example1 td {
+  border: 1px solid grey;
+  max-width: 200px;
+}
+
+input[type=checkbox]+label {
+  display: inline-block;
+  padding: 6px 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: repeat-x;
+}
+
+input[type=checkbox]:checked+label {
+  background-color: #3e618b;
+  outline: 0;
+}
+input[type=checkbox]:checked+label.color {
+  background-color: #fff;
+  outline: 0;
+}
